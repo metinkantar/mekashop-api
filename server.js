@@ -25,7 +25,7 @@ app.use("/api/product", require("./routes/product"));
 app.get("/", (req, res) => {
   res.status(200).json({
     islem: true,
-    data: "MeKa-TahminWorld Restful Api",
+    data: "MeKaShop Restful Api",
   });
 });
 
